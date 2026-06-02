@@ -1,4 +1,4 @@
-module.exports = ({ env }) => ({ // eslint-disable-line
+module.exports = ({ env: _env }) => ({
   // ...
   'users-permissions': {
     config: {

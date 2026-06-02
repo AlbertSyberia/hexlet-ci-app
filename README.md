@@ -4,8 +4,8 @@ Starting boilerplate of [Strapi](https://strapi.io/) application
 
 ## System requirements
 
-* NodeJS >= 18
-* NPM >= 6.x
+* NodeJS >= 26
+* NPM >= 10.x
 * Make
 
 ## Using

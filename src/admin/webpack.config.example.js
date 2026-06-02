@@ -1,2 +1,2 @@
 /* eslint-disable no-unused-vars */
-module.exports = (config, webpack) => (config);
+module.exports = (config, _webpack) => config;

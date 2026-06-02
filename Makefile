@@ -13,6 +13,9 @@ test:
 	npm test
 
 lint:
-	npx eslint .
+	npx biome check .
+
+lint-fix:
+	npx biome check . --write
 
 .PHONY: build

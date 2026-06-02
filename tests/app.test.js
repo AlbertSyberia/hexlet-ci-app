@@ -1,4 +1,4 @@
-const fs = require('fs'); // eslint-disable-line
+const _fs = require('node:fs'); // eslint-disable-line
 const { setupStrapi, cleanupStrapi } = require('./helpers/strapi.js');
 
 beforeAll(async () => {
