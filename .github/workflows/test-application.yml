@@ -1,3 +1,5 @@
+name: test-application
+on: push
 jobs:
   build-test-application:
     runs-on: ubuntu-latest
