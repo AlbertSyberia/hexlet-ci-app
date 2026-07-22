@@ -1,10 +1,12 @@
 jobs:
-  build-teat-application:
-  runs-on: ubuntu-latest
-  steps:
-    - name: install
-      run: make setup
-    - name: test
-      run: make test
-    - name: check
-      run: make lint
+  build-test-application:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: action/checkout@v4
+      - name: Install
+        run: make setup
+      - name: Test
+        run: make test
+      - name: Check
+        run: make lint
