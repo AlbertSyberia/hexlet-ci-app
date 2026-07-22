@@ -1,0 +1,7 @@
+jobs:
+  build: test-application
+  runs-on: ubuntu-latest
+  steps:
+    - install: make setup
+    - test: make test
+    - check: make lint
