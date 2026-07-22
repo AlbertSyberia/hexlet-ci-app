@@ -2,6 +2,8 @@
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
 
+[![test-application](https://github.com/AlbertSyberia/hexlet-ci-app/actions/workflows/test-application.yml/badge.svg?event=check_run)](https://github.com/AlbertSyberia/hexlet-ci-app/actions/workflows/test-application.yml)
+
 ## System requirements
 
 * NodeJS >= 26
