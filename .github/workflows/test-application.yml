@@ -1,7 +1,10 @@
 jobs:
-  build: test-application
+  build-teat-application:
   runs-on: ubuntu-latest
   steps:
-    - install: make setup
-    - test: make test
-    - check: make lint
+    - name: install
+      run: make setup
+    - name: test
+      run: make test
+    - name: check
+      run: make lint
